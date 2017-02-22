@@ -173,8 +173,8 @@ header li a:hover{
     margin: auto;
 }
 
-.projects-container + .projects-container {
-    margin-left: 2.5rem;
+.projects .projects-container + .projects-container {
+    margin-left: 3rem;
 }
 
 
@@ -232,4 +232,9 @@ header li a:hover{
 .bg-image{
     position: fixed;
     z-index: -1;
+    width: 100%;
 }
+
+.bg-image img{
+    width: 100%;
+} 

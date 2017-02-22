@@ -10,9 +10,12 @@ $(document).ready(function () {
     //         // $(this).next().addClass('text-hide');
     //     }
     // );
+    // 
+    
+    $('<img src="images/bg1.jpg" alt="" id="bg">').appendTo('.bg-image');
 
     var $window = $(window),
-        $img = $('#bg img'),
+        $img = $('#bg'),
         $project = $('#project'),
         $about = $('#about');
 
