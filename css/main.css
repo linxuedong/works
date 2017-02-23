@@ -103,7 +103,7 @@ body {
 }
 
 a {
-    color : #666;
+    color : #000000;
     text-decoration: none;
 }
 
@@ -179,14 +179,14 @@ header li a:hover{
 
 
 .projects-container img{
-    width: 350px;
+    width: 100%;
     margin: auto;
-    height: 272px;
+    height: auto;
     position: relative;
 }
 
 .describe {
-    width: 350px;
+    width: 100%;
     height: auto;
     /*height: 272px;*/
     top: -275px;
