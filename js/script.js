@@ -1,16 +1,13 @@
 $(document).ready(function () {
-    // alert($('.projects-container a').children().next().text());
-    // $('.projects-container a').hover(
-    //     function () {
-    //         // $(this).next().removeClass('text-hide');
-    //         $(this).children().next().addClass('describe');
-    //     },
-    //     function () {
-    //         $(this).children().next().removeClass('describe');
-    //         // $(this).next().addClass('text-hide');
-    //     }
-    // );
-    // 
+    $('.projects-container a').hover(
+        function () {
+            $(this).children().next().addClass('describe');
+        },
+        function () {
+            $(this).children().next().removeClass('describe');
+        }
+    );
+    
     
     $('<img src="images/bg1.jpg" alt="" id="bg">').appendTo('.bg-image');
 
@@ -26,7 +23,6 @@ $(document).ready(function () {
             if($window.scrollTop() > $about.offset().top){
                 $img.attr('src','images/bg3.jpg');
             }
-
         }else {
             $img.attr('src','images/bg1.jpg');
         }

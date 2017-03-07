@@ -171,6 +171,7 @@ header li a:hover{
     display: inline-block;
     width: calc(33.333333% - 3rem);
     margin: auto;
+    position: relative;
 }
 
 .projects .projects-container + .projects-container {
@@ -180,31 +181,29 @@ header li a:hover{
 
 .projects-container img{
     width: 100%;
-    margin: auto;
-    height: auto;
-    position: relative;
+    margin: 0 auto;
 }
 
 .describe {
     width: 100%;
-    height: auto;
-    /*height: 272px;*/
-    top: -275px;
-    /*float: left;*/
-    position: relative;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
     background-color: rgba(0,0,0,0.6);
-    /*color: #ffffff;*/
 }
 
-/*.describe h3{*/
-    /*padding-top: 90px;*/
-    /*font-size: 20px;*/
-    /*line-height: 40px;*/
-/*}*/
+.describe h3{
+    color: #ffffff;
+    padding-top: 90px;
+    font-size: 20px;
+    line-height: 40px;
+}
 
-/*.describe p{*/
-    /*font-size: 15px;*/
-/*}*/
+.describe p{
+    color: #ffffff;
+    font-size: 15px;
+}
 
 
 .about img{
